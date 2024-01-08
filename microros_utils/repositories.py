@@ -96,13 +96,13 @@ class Sources:
     mcu_environments = {
         'humble': [
             Repository("micro-CDR", "https://github.com/eProsima/micro-CDR", "humble", "ros2"),
-            Repository("Micro-XRCE-DDS-Client", "https://github.com/maierp/Micro-XRCE-DDS-Client", "humble", "ros2"),
+            Repository("Micro-XRCE-DDS-Client", "git@github.com:maierp/Micro-XRCE-DDS-Client.git", "humble", "ros2"),
             Repository("rcl", "https://github.com/micro-ROS/rcl", "humble"),
             Repository("rclc", "https://github.com/ros2/rclc", "humble"),
             Repository("micro_ros_utilities", "https://github.com/micro-ROS/micro_ros_utilities", "humble"),
             Repository("rcutils", "https://github.com/micro-ROS/rcutils", "humble"),
             Repository("micro_ros_msgs", "https://github.com/micro-ROS/micro_ros_msgs", "humble"),
-            Repository("rmw-microxrcedds", "https://github.com/maierp/rmw-microxrcedds", "humble"),
+            Repository("rmw-microxrcedds", "git@github.com:maierp/rmw-microxrcedds.git", "humble"),
             Repository("rosidl_typesupport", "https://github.com/micro-ROS/rosidl_typesupport", "humble"),
             Repository("rosidl_typesupport_microxrcedds", "https://github.com/micro-ROS/rosidl_typesupport_microxrcedds", "humble"),
             Repository("rosidl", "https://github.com/ros2/rosidl", "humble"),
